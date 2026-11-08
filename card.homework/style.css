@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box；
+}
+body{
+    background-color:#5e5656;display:flex;
+    justify-content:center;
+    padding-top:60px;
+}
+.card{
+  width: 300px；
+  background-color：#ffffff;
+  border-radius:16px ;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(rgb(25, 33, 119), rgb(45, 0, 128), blue, alpha);
+}
+.card img{
+  width:120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.nickname{
+  font-size: 22px;
+  color: #969696;
+  margin-bottom: 20px;
+}
+.intro{
+  color: #e0aeae;
+  margin-bottom: 20px;
+}
+h3{
+  font-size: 18px;
+  color:#333 ;
+  margin-bottom: 12px;
+}
+.hobby-list{
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 24px;
+  color: #444;
+}
+.hobby-list li{
+  margin-bottom: 6px;
+}
+.card a{
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+.card a:hover{
+  color: #1d4ed8;
+}  
