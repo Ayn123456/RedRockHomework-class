@@ -1,0 +1,35 @@
+.box{
+    width: 500px;
+       padding:10px;
+       border: 1px solid black;
+    }
+.box div{
+    width:180px；
+    height；50px;
+    background-color: grey;
+}
+.box a{
+    text-decoration: none;
+}
+.tap{
+    color:red;
+}
+.box div:hover{
+    background-color:yellow;
+    transform: scale(0.5);
+}
+.box ul .line1{
+    font-size: 20px;
+}
+.box ul .line2{
+    font-size: 30px;
+}
+.box ul .line3{
+    font-size: 40px;
+}
+.box {
+    align-items: center;
+}
+html,body{
+        height:100%
+}
